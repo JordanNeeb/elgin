@@ -10,5 +10,5 @@ export default async function Upload() {
     redirect("/login");
   }
 
-  return <p>Hello {data.user.email}</p>;
+  return <p className="text-white">Hello {data.user.email}</p>;
 }
